@@ -1,0 +1,13 @@
+create table Person(
+	id int,
+	name varchar,
+	age int,
+	email varchar
+	);
+	
+insert into Person values(1,'Tom', 67, 'tomwaits@gmail.com');
+insert into Person values(2, 'Ross', 31, 'ross@gmail.com');
+insert into Person values(3, 'Monika', 31, 'ross@gmail.com');
+insert into Person values(4, 'Fibi', 31, 'ross@gmail.com');
+
+select * from person;
